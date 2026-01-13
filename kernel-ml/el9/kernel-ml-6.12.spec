@@ -24,7 +24,7 @@
 %global _binary_payload w3T.xzdio
 
 # Define the version of the Linux Kernel Archive tarball.
-%global LKAver 6.12.11
+%global LKAver 6.12.65
 
 # Define the buildid, if required.
 #global buildid .local
@@ -1512,6 +1512,63 @@ fi
 %kernel_ml_variant_files %{_use_vdso} %{with_std}
 
 %changelog
+* Thu Jan 13 2026 Jim Lin <jim.lin@bigstack.co> - 6.12.65-1
+- Updated with the 6.12.65 source tarball.
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.12]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.13]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.14]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.15]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.16]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.17]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.18]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.19]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.20]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.21]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.22]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.23]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.24]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.25]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.26]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.27]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.28]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.29]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.30]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.31]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.32]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.33]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.34]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.35]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.36]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.37]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.38]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.39]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.40]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.41]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.42]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.43]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.44]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.45]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.46]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.47]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.48]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.49]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.50]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.51]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.52]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.53]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.54]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.55]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.56]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.57]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.58]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.59]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.60]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.61]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.62]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.63]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.64]
+- [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.65]
+
 * Thu Jan 23 2025 Akemi Yagi <toracat@elrepo.org> - 6.12.11-1
 - Updated with the 6.12.11 source tarball.
 - [https://www.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.11]
